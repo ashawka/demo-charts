@@ -17,7 +17,7 @@ app:
     title: "Rancher Demo App"
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 8080
 
 ingress:
